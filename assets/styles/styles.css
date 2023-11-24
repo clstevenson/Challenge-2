@@ -19,11 +19,13 @@ header {
 }
 
 h1 {
+    color: var(--header-dark-color);
     background-color: var(--header-light-color);
     display: inline-block;
     text-align: right;
     width: 30%;
     padding: 5px;
+    font-size: 200%;
 }
 
 .page-title {
@@ -53,7 +55,6 @@ h1 {
 
 section.page-subtitle {
     position: relative;
-    color: var(--header-dark-color);
     width: 100%;
     padding: 10px;
     height: 150px;
@@ -62,10 +63,64 @@ section.page-subtitle {
 .page-subtitle p {
     position: absolute;
     right: 50px;
-    top: 50px;
-    font-size: 150%;
-    padding: 20px;
+    bottom: 0px;
+    font-size: 140%;
+    font-weight: 500;
+    padding: 15px;
+    color: var(--header-dark-color);
     background-color: var(--header-light-color);
     display: inline;
 }
 
+/****************
+* Styling the main body of the content
+****************/
+
+body {
+    color: var(--body-text-color);
+    background-color: var(--body-bkgd-color);
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.flexed {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.left-text-block {
+    flex: 0 0 150px;
+    padding: 0px 10px 20px;
+    text-align: right;
+    border-right: 3px solid black;
+}
+
+main .right-content-block {
+    padding: 10px;
+}
+
+/****************
+* Styling the footer
+****************/
+
+footer .right-content-block {
+    flex: 1 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer p {
+    padding: 5px;
+    border-bottom: 2px solid var(--body-text-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--body-text-color);
+}
