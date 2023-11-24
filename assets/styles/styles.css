@@ -1,0 +1,71 @@
+:root {
+    --header-dark-color: #31343d;
+    --header-light-color: #92cccd;
+    --body-bkgd-color: #ededf6;
+    --body-text-color: #445876;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*********
+* Style the page title area
+/*********/
+
+/* First the main title */
+header {
+    background-color: var(--header-dark-color);
+}
+
+h1 {
+    background-color: var(--header-light-color);
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    padding: 5px;
+}
+
+.page-title {
+    height: 100px;
+    /* below is temporary, for visualization */
+    border-bottom: 1px solid white;
+}
+
+.page-title nav {
+    display: inline-block;
+    width: 65%;
+    text-align: right;
+}
+
+.page-title li {
+    display: inline;
+    padding: 10px;
+    border-bottom: 2px solid var(--header-light-color);
+}
+
+.page-title a {
+    color: var(--header-light-color);
+    text-decoration: none;
+}
+
+/* Now the sub-heading */
+
+section.page-subtitle {
+    position: relative;
+    color: var(--header-dark-color);
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+}
+
+.page-subtitle p {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    font-size: 150%;
+    padding: 20px;
+    background-color: var(--header-light-color);
+    display: inline;
+}
+
