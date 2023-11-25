@@ -2,7 +2,7 @@
     --header-dark-color: #243456;
     --header-light-color: #92cccd;
     --body-bkgd-color: #ededf6;
-    --body-text-color: #445876;
+    --body-text-color: #2b3749;
 }
 
 body {
@@ -19,7 +19,6 @@ header {
 }
 
 .page-title {
-    /* height: 100px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -31,7 +30,6 @@ header {
     /* display: inline-block; */
     flex: 1 1 40%;
     text-align: right;
-    /* width: 40%; */
     padding: 5px;
     font-size: 200%;
 }
@@ -59,7 +57,6 @@ header {
 section.page-subtitle {
     position: relative;
     width: 100%;
-    padding: 10px;
     height: 150px;
     background-image: url(../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg);
 }
