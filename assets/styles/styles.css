@@ -18,30 +18,35 @@ header {
     background-color: var(--header-dark-color);
 }
 
-h1 {
-    color: var(--header-dark-color);
-    background-color: var(--header-light-color);
-    display: inline-block;
-    text-align: right;
-    width: 40%;
-    padding: 5px;
-    font-size: 200%;
-}
-
 .page-title {
-    height: 100px;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     /* below is temporary, for visualization */
     border-bottom: 1px solid white;
 }
 
+.page-title h1 {
+    color: var(--header-dark-color);
+    background-color: var(--header-light-color);
+    /* display: inline-block; */
+    flex: 1 1 40%;
+    text-align: right;
+    /* width: 40%; */
+    padding: 5px;
+    font-size: 200%;
+}
+
 .page-title nav {
-    display: inline-block;
-    width: 55%;
+    /* display: inline-block; */
+    /* width: 55%; */
+    flex: 1 0 55%;
     text-align: right;
 }
 
 .page-title li {
-    display: inline;
+    display: inline-block;
     padding: 10px;
     border-bottom: 2px solid var(--header-light-color);
 }
@@ -99,10 +104,11 @@ h2 {
 }
 
 main .right-content-block {
+    flex: 1 1 650px;
+    /* nested flexbox for project tiles */
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    flex: 1 1 650px;
 }
 
 .first-project {
