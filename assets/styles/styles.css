@@ -52,6 +52,11 @@ header {
     text-decoration: none;
 }
 
+/* create hover effect for image to indicate active link */
+img.indicate-hover:hover {
+    opacity: 0.5;
+}
+
 /* Now the sub-heading */
 
 section.page-subtitle {
