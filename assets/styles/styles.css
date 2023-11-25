@@ -1,5 +1,5 @@
 :root {
-    --header-dark-color: #31343d;
+    --header-dark-color: #243456;
     --header-light-color: #92cccd;
     --body-bkgd-color: #ededf6;
     --body-text-color: #445876;
@@ -23,8 +23,6 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* below is temporary, for visualization */
-    border-bottom: 1px solid white;
 }
 
 .page-title h1 {
@@ -63,6 +61,7 @@ section.page-subtitle {
     width: 100%;
     padding: 10px;
     height: 150px;
+    background-image: url(../images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg);
 }
 
 .page-subtitle p {
