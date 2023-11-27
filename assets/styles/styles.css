@@ -27,7 +27,6 @@ header {
 .page-title h1 {
     color: var(--header-dark-color);
     background-color: var(--header-light-color);
-    /* display: inline-block; */
     flex: 1 1 40%;
     text-align: right;
     padding: 5px;
@@ -35,8 +34,6 @@ header {
 }
 
 .page-title nav {
-    /* display: inline-block; */
-    /* width: 55%; */
     flex: 1 0 55%;
     text-align: right;
 }
